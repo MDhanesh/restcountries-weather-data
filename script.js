@@ -33,11 +33,15 @@ async function restCountriesData() {
     cardheader.setAttribute("class", "card-header  text-white text-uppercase");
     cardheader.innerHTML = `<h5>${result[i].name.common}</h5>`;
     card.append(cardheader);
+    //box
+    let box = document.createElement("div");
+    box.setAttribute("class", "box m-3");
+    card.append(box);
     //image
     let flag = document.createElement("img");
     flag.setAttribute("src", `${result[i].flags.png}`);
-    flag.setAttribute("class", "card-img-top h-50");
-    card.append(flag);
+    flag.setAttribute("class", "image ");
+    box.append(flag);
     //card-body
     let cardbody = document.createElement("div");
     cardbody.setAttribute("class", "card-body");

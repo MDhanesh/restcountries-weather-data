@@ -1,5 +1,5 @@
 body {
-  background: #e7717d;
+  background: #2ff3fd;
 }
 nav {
   background-color: #242582;
@@ -7,7 +7,14 @@ nav {
 }
 .card {
   background: #efe2ba;
+  width: 350px;
+  height: 500px;
+  margin: 5px;
 }
 .card-header {
   background-color: #5680e9;
+}
+.box {
+  width: 300px;
+  height: 200px;
 }
